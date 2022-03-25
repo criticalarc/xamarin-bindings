@@ -1,11 +1,11 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
 
   <PropertyGroup>
-    <TargetFramework>MonoAndroid11.0</TargetFramework>
+    <TargetFramework>net6.0-android31</TargetFramework>
     <IsBindingProject>true</IsBindingProject>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>3.0.0</Version>
+    <Version>3.0.0.1</Version>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/AigioL/xamarin-bindings</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AigioL/xamarin-bindings.git</RepositoryUrl>
@@ -37,8 +37,8 @@ com.google.android.flexbox.FlexboxLayoutManager -&gt; Android.Flexbox.FlexboxLay
   <ItemGroup>
     <!-- https://github.com/google/flexbox-layout/blob/3.0.0/build.gradle -->
     <!-- https://github.com/google/flexbox-layout/blob/3.0.0/flexbox/build.gradle -->
-    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.2.0" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.4.32.1" />
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.2.1.5" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.6.10" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
   </ItemGroup>
 </Project>
